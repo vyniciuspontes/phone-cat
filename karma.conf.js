@@ -5,18 +5,20 @@ module.exports = function(config) {
     basePath: './app',
 
     files: [
-      'lib/angular/angular.js',
-      'lib/angular-route/angular-route.js',
-      '../node_modules/angular-mocks/angular-mocks.js',
-      'core/**/*.js',
-      'view*/**/*.js'
+        'lib/angular/angular.js',
+        'lib/angular-route/angular-route.js',
+        'lib/angular-mocks/angular-mocks.js',
+        'phone-list/phone-list.module.js',
+        'phone-list/phone-list.controller.js',
+        'phone-list/phone-list.component.js',
+        'phone-list/phone-list.component.spec.js'
     ],
 
     autoWatch: true,
 
     frameworks: ['jasmine'],
 
-    browsers: ['Chrome'],
+    browsers: ['Firefox'],
 
     plugins: [
       'karma-chrome-launcher',
