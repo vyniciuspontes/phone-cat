@@ -8,6 +8,8 @@ module.exports = function(config) {
         'lib/angular/angular.js',
         'lib/angular-route/angular-route.js',
         'lib/angular-mocks/angular-mocks.js',
+        'lib/angular-animate/angular-animate.js',
+        'lib/angular-resource/angular-resource.js',
         'phone-list/phone-list.module.js',
         'phone-list/phone-list.controller.js',
         'phone-list/phone-list.component.js',

@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('phonecatApp', ['phoneList']);
+angular.module('phonecatApp', ['phoneList', 'phoneDetail', 'ngRoute', 'core', 'ngAnimate']);
